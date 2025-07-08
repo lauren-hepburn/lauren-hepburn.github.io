@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+  <!-- SEO Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="Lauren D.H. Forsyth Resume">
+  <meta name="keywords" content="Lauren, Forsyth, Resume, HTML">
+  <meta name="author" content="Lauren D.H. Forsyth">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Lauren D.H.Forsyth Resume">
+  <meta property="og:type" content="resume">
+  <meta property="og:description" content="Lauren Forsyth's professional resume, showcasing skills, experience, and qualifications.">
+  <meta property="og:site_name" content="Lauren Forsyth's Resume">
+  <meta property="og:locale" content="en_US">
+  <title>Lauren D.H. Forsyth</title>
+  <link rel="stylesheet" href="resume.css" media="screen">
+</head>
+<body>
+  <div class="header" align="center" width=100%>
+    <a href="homepage.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="articles.html">Articles</a>
+    <a href="Resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <header>
+    <h1>Lauren D.H. Forsyth</h1>
+    <h4>Junior Frontend Developer</h4>
+  </header>
+
+  <div class="w3-sidebar w3-bar-block w3-black w3-card" style="width:130px">
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Skills')">Skills</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Education')">Education</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Experience')">Experience</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Links')">Links</button>
+  </div>
+
+<div style="margin-left:130px">
+  <div class="w3-padding">Use any of the w3-animate-classes to fade, zoom or slide in tab content.</div>
+
+  <div id="Skills" class="w3-container city w3-animate-right" style="display:none">
+    <h2>Skills</h2>
+    <p>
+      Unity, Godot, C#, C++, Python, HTML, CSS, JavaScript, Visual Studio<br>
+      Webflow, Squarespace, Microsoft Office, JIRA, Asana, Confluence, Teams/Discord/Slack
+    </p>
+  </div>
+
+  <div id="Education" class="w3-container city w3-animate-right" style="display:none">
+    <h2>Education</h2>
+    <div class="School">
+      <h4 style="color : dodgerblue; margin-bottom: -10px;">Algonquin College, Ottawa, ON - Game Development</h4>
+      <p>September 2018 to April 2021</p>
+    </div>
+    <div class="School">
+      <h4 style="color : dodgerblue; margin-bottom: -10px;">Carleton University, Ottawa, ON - Computer Science</h4>
+      <p>September 2016 to April 2018</p>
+    </div>
+    <div class="School">
+      <h4 style="color : dodgerblue; margin-bottom: -10px;">Additional Learning</h4>
+      <p>
+        Google's Project Management Certificate - Certified December 2023<br>
+        Unity Technologies Junior Programming Learning Pathway: Create With Code - Certified April 2023
+      </p>
+    </div>
+  </div>
+
+  <div id="Experience" class="w3-container city w3-animate-right" style="display:none">
+    <h2>Experience</h2>
+    <div class="Job">
+      <h4 style="color : dodgerblue; margin-bottom: -10px;">Luxsonic Technologies Inc., Remote - Junior Software Developer</h4>
+      <p>December 2024 to August 2024</p>
+      <ul>
+        <li>Developed and implemented new UI functionality in software using Unity, writing clean, commented and efficient coding practices.</li>
+        <li>Identified and resolved software bugs to ensure expected functionality and to enhance the overall performance of the tools.</li>
+        <li>Utilized GitHub for version control, updating, merging and managing code changes while collaborating with team members.</li>
+        <li>Actively participated in daily scrum meetings and monthly epic reviews, contributing to project planning and tracking progress.</li>
+      </ul>
+      <p>Skills: Unity, C#, Visual Studio, Confluence, Teams</p>
+    </div>
+    <div class="Job">
+      <h4 style="color : dodgerblue; margin-bottom: -10px;">Games by Stitch, Remote - Junior Game Developer</h4>
+      <p>September 2021 to December 2023</p>
+      <ul>
+        <li>Coordinated with game designer to prototype puzzles in Unity using C# and Netcode</li>
+        <li>Ran QA tests to determine if the puzzle would effectively challenge the player</li>
+        <li>QA on a multitude of devices including tablets, phones, PC and VR.</li>
+        <li>Produced testing plans to thoroughly test features, updating test plans and the appropriate JIRA boards</li>
+        <li>Created a playtest pipeline and wrote out VR and mobile instructions</li>
+        <li>Coordinated several playtests and assisted playtesters with installing issues or bugs as the main contact.</li>
+        <li>Analyzed data from playtests and presented analytics to the team</li>
+      </ul>
+      <p>Skills: Unity, C#, HTML, Visual Studio, Webflow, JIRA, Confluence, Slack</p>
+    </div>
+    <div class="Job">
+      <h4 style="color : dodgerblue; margin-bottom: -10px">SAS Canada, Toronto, ON - Programmer; Summer Internship</h4>
+      <p>May 2016 to August 2016</p>
+      <ul>
+        <li>Wrote a technical document outlining a file search engine using Python.</li>
+        <li>Collaborated with team to gather insights, enhancing the potential performance and usability the file search engine.</li>
+        <li>Engaged in daily scrum meetings to track project progress, define task priorities and ensure the project was aligned with the team’s goals.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="Links" class="w3-container city w3-animate-right" style="display:none">
+    <h2>Links</h2>
+    <a href="https://github.com/lauren-hepburn">GitHub</a><br>
+    <a href="https://www.linkedin.com/in/lauren-dh-forsyth/">LinkedIn</a>
+  </div>
+</div>
+
+<script>
+function openLink(evt, animName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(animName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+</body>
