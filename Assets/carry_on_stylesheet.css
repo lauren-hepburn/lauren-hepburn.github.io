@@ -1,9 +1,13 @@
 .intro {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .intro h3 {
   font-size: 24px;
+  font-family: "Tangerine", sans-serif;
 }
 
 .intro img {
@@ -27,9 +31,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 25px;
 }
 
 .grid_item h3,
 .grid_item h4 {
   align-items: center;
+}
+
+.project_plan {
+  padding-bottom: 50px;
 }
