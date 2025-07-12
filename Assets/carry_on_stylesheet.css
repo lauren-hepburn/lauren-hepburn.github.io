@@ -6,14 +6,18 @@
   justify-content: center;
 }
 
-.intro h3 {
+.intro h3, .intro h3 em {
   font-size: 24px;
-  font-family: "Tangerine", sans-serif;
+  font-family: "Tangerine", cursive !important;
 }
 
 .intro img {
   width: 600px;
   height: auto;
+}
+
+.gdd h2 {
+  text-align: center;
 }
 
 .gdd_grid {
