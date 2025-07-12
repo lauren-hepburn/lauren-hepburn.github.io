@@ -16,17 +16,6 @@
   height: auto;
 }
 
-.project_plan {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.project_plan h2,
-.project_plan h3,
-.project_plan h4{
-  align-items: center;
-}
-
 .gdd_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -43,10 +32,6 @@
 .grid_item h3,
 .grid_item h4 {
   align-items: center;
-}
-
-.project_plan {
-  padding-bottom: 50px;
 }
 
 p {
