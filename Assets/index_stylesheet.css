@@ -1,0 +1,17 @@
+.home_body_text {
+  align-items: left;
+  width: 600px;
+  height: auto;
+}
+
+.main_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_body_image {
+  align-items: center;
+  padding: 50px 10px;
+  width: 50%;
+  height: auto;
+}
