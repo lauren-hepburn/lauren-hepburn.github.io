@@ -16,6 +16,11 @@
   height: auto;
 }
 
+.project_plan {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .project_plan h2,
 .project_plan h3,
 .project_plan h4{
@@ -32,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50px;
+  padding: 25px 50px;
 }
 
 .grid_item h3,
@@ -42,4 +47,8 @@
 
 .project_plan {
   padding-bottom: 50px;
+}
+
+p {
+  padding: 0px;
 }
