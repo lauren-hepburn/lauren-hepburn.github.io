@@ -8,32 +8,35 @@ p {
 }
 
 .faq_accordion {
+  background-color: rgb(226, 229, 248);
   cursor: pointer;
-  padding: 10px 0px;
-  width: 100%;
+  width: 60%;
+  padding: 18px;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
 }
 
-.faq_accordion:hover {
+.active, .faq_accordion:hover {
   background-color: rgb(195, 200, 240);
 }
 
 .faq_accordion:after {
-  content: '\02795';
+  content: '\002B';
+  color: rgb(195, 200, 240);
   float: right;
   margin-left: 5px;
+  font-weight: bold;
 }
 
 .active:after {
-  content: "\2796";
+  content: "\2212";
 }
 
-.accordion_panel {
+.faq_accordion_panel {
   padding: 0 18px;
-  display: none;
+  background-color: rgb(226, 229, 248);
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
