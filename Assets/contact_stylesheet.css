@@ -9,7 +9,7 @@ p {
 
 .faq_accordion {
   cursor: pointer;
-  padding: 18px;
+  padding: 10px 0px;
   width: 100%;
   text-align: left;
   border: none;
@@ -45,4 +45,8 @@ p {
 
 .donation {
   text-align: center;
+}
+
+.copyright {
+  font-size: 8px;
 }

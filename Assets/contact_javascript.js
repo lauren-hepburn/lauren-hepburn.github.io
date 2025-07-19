@@ -1,4 +1,4 @@
-var accordion = document.getElementsByClassName("accordion");
+var accordion = document.getElementsByClassName("faq_accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
