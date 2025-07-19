@@ -1,0 +1,40 @@
+h1, h2 {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+p {
+  padding: 10px 50px;
+}
+
+.faq_accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.faq_accordion:hover {
+  background-color: rgb(195, 200, 240);
+}
+
+.faq_accordion:after {
+  content: '\02795';
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after{
+  content: "\2796";
+}
+
+.accordion_panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
