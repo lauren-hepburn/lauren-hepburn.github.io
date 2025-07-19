@@ -27,7 +27,7 @@ p {
   margin-left: 5px;
 }
 
-.active:after{
+.active:after {
   content: "\2796";
 }
 
@@ -37,4 +37,12 @@ p {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+}
+
+.contact_form{
+  text-align: center;
+}
+
+.donation {
+  text-align: center;
 }
